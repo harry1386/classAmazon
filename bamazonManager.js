@@ -143,11 +143,12 @@ function addProduct(){
 			if(err) throw err;
 			console.log(" ");
 			console.log("Fully Updated Boss-Man!")
+			console.log(" ");
+			anotherAct();
 		});
 
 	})
-		console.log(" ");
-		anotherAct();
+		
 };
 
 function anotherAct(){
